@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bnqwxhdmz.github.io</id>
     <title>bnqwxhdmz</title>
-    <updated>2020-05-20T06:51:22.498Z</updated>
+    <updated>2020-05-20T06:59:24.334Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bnqwxhdmz.github.io"/>
     <link rel="self" href="https://bnqwxhdmz.github.io/atom.xml"/>
@@ -10,4 +10,13 @@
     <logo>https://bnqwxhdmz.github.io/images/avatar.png</logo>
     <icon>https://bnqwxhdmz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, bnqwxhdmz</rights>
+    <entry>
+        <title type="html"><![CDATA[adsfbfbsf]]></title>
+        <id>https://bnqwxhdmz.github.io/post/adsfbfbsf/</id>
+        <link href="https://bnqwxhdmz.github.io/post/adsfbfbsf/">
+        </link>
+        <updated>2020-05-20T06:52:58.000Z</updated>
+        <content type="html"><![CDATA[<p>bsffsgnefnbsfbs</p>
+]]></content>
+    </entry>
 </feed>
