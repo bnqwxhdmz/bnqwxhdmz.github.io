@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bnqwxhdmz.github.io</id>
     <title>bnqwxhdmz</title>
-    <updated>2020-05-20T08:11:13.430Z</updated>
+    <updated>2020-05-20T09:31:25.581Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bnqwxhdmz.github.io"/>
     <link rel="self" href="https://bnqwxhdmz.github.io/atom.xml"/>
@@ -10,4 +10,35 @@
     <logo>https://bnqwxhdmz.github.io/images/avatar.png</logo>
     <icon>https://bnqwxhdmz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, bnqwxhdmz</rights>
+    <entry>
+        <title type="html"><![CDATA[Mac下Homebrew的安装和使用]]></title>
+        <id>https://bnqwxhdmz.github.io/post/mac-xia-homebrew-de-an-zhuang-he-shi-yong/</id>
+        <link href="https://bnqwxhdmz.github.io/post/mac-xia-homebrew-de-an-zhuang-he-shi-yong/">
+        </link>
+        <updated>2019-01-17T09:54:10.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="homebrew"><a href="https://brew.sh/index_zh-cn">Homebrew</a> - Mac下很好用的包管理工具</h2>
+<h3 id="安装">安装:</h3>
+<p>终端输入:<br>
+<code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></p>
+<h2 id="常用命令">常用命令:</h2>
+<ul>
+<li><code>brew --help</code>: 帮助</li>
+<li><code>brew install wget</code>: 安装wget包(Homebrew 会将软件包安装到独立目录, 并将其文件软链接至 /usr/local).</li>
+<li><code>brew search mysql</code>: 搜索.</li>
+<li><code>brew info mysql</code>: 主要看具体的信息. 比如目前的版本, 依赖, 安装后注意事项等.</li>
+<li><code>brew update</code>: 更新Homebrew.</li>
+<li><code>brew outdated</code>: 列出所有安装包里可以升级的包.</li>
+<li><code>brew upgrade</code>: 升级所有可以升级包.</li>
+<li><code>brew cleanup</code>: 清理不需要的版本极其安装包缓存.</li>
+<li><code>brew reinstall mysql</code>: 重新覆盖安装包.</li>
+<li><code>brew uninstall mysql</code>: 卸载</li>
+<li><code>brew doctor</code>: 检查有没有问题</li>
+<li><code>brew tap cask</code>: 安装软件包
+<ul>
+<li><code>brew cask install wechat</code>: 在mac上安装微信(目前绝大部分软件我都通过这种方式安装)</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
 </feed>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | bnqwxhdmz</title>
+<title>Mac下Homebrew的安装和使用 | bnqwxhdmz</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,7 +18,11 @@
 
 
 
-    <meta name="description" content="揪心的玩笑与漫长的白日梦....">
+    <meta name="description" content="Homebrew - Mac下很好用的包管理工具
+安装:
+终端输入:
+/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/instal..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -88,30 +92,42 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">Mac下Homebrew的安装和使用</h2>
+            <div class="post-date">2019-01-17</div>
+            
+            <div class="post-content" v-pre>
+              <h2 id="homebrew"><a href="https://brew.sh/index_zh-cn">Homebrew</a> - Mac下很好用的包管理工具</h2>
+<h3 id="安装">安装:</h3>
+<p>终端输入:<br>
+<code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></p>
+<h2 id="常用命令">常用命令:</h2>
+<ul>
+<li><code>brew --help</code>: 帮助</li>
+<li><code>brew install wget</code>: 安装wget包(Homebrew 会将软件包安装到独立目录, 并将其文件软链接至 /usr/local).</li>
+<li><code>brew search mysql</code>: 搜索.</li>
+<li><code>brew info mysql</code>: 主要看具体的信息. 比如目前的版本, 依赖, 安装后注意事项等.</li>
+<li><code>brew update</code>: 更新Homebrew.</li>
+<li><code>brew outdated</code>: 列出所有安装包里可以升级的包.</li>
+<li><code>brew upgrade</code>: 升级所有可以升级包.</li>
+<li><code>brew cleanup</code>: 清理不需要的版本极其安装包缓存.</li>
+<li><code>brew reinstall mysql</code>: 重新覆盖安装包.</li>
+<li><code>brew uninstall mysql</code>: 卸载</li>
+<li><code>brew doctor</code>: 检查有没有问题</li>
+<li><code>brew tap cask</code>: 安装软件包
+<ul>
+<li><code>brew cask install wechat</code>: 在mac上安装微信(目前绝大部分软件我都通过这种方式安装)</li>
+</ul>
+</li>
+</ul>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
-              
-                
-                  <article class="post">
-                    <a href="https://bnqwxhdmz.github.io/post/mac-xia-homebrew-de-an-zhuang-he-shi-yong/">
-                      <h2 class="post-title">
-                        Mac下Homebrew的安装和使用
-                      </h2>
-                    </a>
-                  </article>
-                
-              
             
+
+            
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
